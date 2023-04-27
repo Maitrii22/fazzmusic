@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fazz calming</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Calming Fazz</h1>
+	<p>We understand the power of music in promoting relaxation and reducing stress</p>
+	<ul>
+		<li><button type="button" onclick="playSound('ocean')">Ocean Waves</button></li>
+		<li><button type="button" onclick="playSound('forest')">Forest Sounds</button></li>
+		<li><button type="button" onclick="playSound('rain')">Rain Sounds</button></li>
+		<li><button type="button" onclick="playSound('birds')">Bird Sounds</button></li>
+	</ul>
+	<audio id="soundPlayer" controls>
+		<source id="soundSource" src="" type="audio/mpeg">
+	</audio>
+	<script src="app.js"></script>
+</body>
+</html>
