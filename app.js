@@ -1,8 +1,8 @@
 const sounds = {
-	ocean: 'sounds/ocean.mp3',
-	forest: 'sounds/forest.mp3',
-	rain: 'sounds/rain.mp3',
-	birds: 'sounds/birds.mp3'
+	ocean: 'ocean.mp3',
+	forest: 'forest.mp3',
+	rain: 'rain.mp3',
+	birds: 'birds.mp3'
   };
   
   function playSound(soundName) {
